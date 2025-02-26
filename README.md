@@ -19,7 +19,7 @@ Trong thời đại công nghệ phát triển vượt bậc, thị trường đ
 Build tool: **Maven** 
 Database: **MySQL** 
 
-📌 Backend:
+📌 **Backend:**
 
 - **Spring MVC & Spring Boot**: Xây dựng ứng dụng web theo mô hình MVC, giúp cấu hình và triển khai dự án nhanh chóng.
 
@@ -29,7 +29,9 @@ Database: **MySQL**
 
 - **Spring Data JPA**: Giúp thao tác với cơ sở dữ liệu nhanh chóng, dễ dàng.
 
-📌 Frontend:
+- - **Spring AOP**: Đo thời thực thi của phương thức, giúp theo dõi hiệu suất.
+
+📌 **Frontend:**
 
 - View Engine: **JSP**
 
@@ -37,7 +39,7 @@ Database: **MySQL**
 
 - **jQuery & AJAX**: Xử lý các tác vụ phía client nhanh chóng, mang lại trải nghiệm mượt mà, gọi APIs mà không cần reload trang.
 
-📌 Triển khai: **Docker, VPS**
+📌 **Triển khai: Docker, VPS**
 
 ## 📝 Demo ứng dụng: https://hoanggiang.xyz
 
@@ -67,28 +69,57 @@ Database: **MySQL**
 
 ### Chức năng của Admin:
 
-#### ✅ Thống kê 
+#### ✅ Thống kê
+Thống kê tổng số lượng người dùng, sản phẩm, đơn hàng của ứng dụng.
+
+![image](https://github.com/user-attachments/assets/9a6590fa-b216-4c28-9f1c-efb277a9d570)
 
 #### ✅ Quản lý người dùng
+Người quản trị có thể tạo, sửa, xóa và xem chi tiết người dùng.
+
+![image](https://github.com/user-attachments/assets/c5d63f83-b30d-47ac-a031-d49f03ba2e65)
 
 #### ✅ Quản lý sản phẩm
+Người quản trị có thể tạo, sửa, xóa và xem chi tiết sản phẩm.
+
+![image](https://github.com/user-attachments/assets/49046c5a-5fe3-4b6e-8ae7-661287dd6dde)
 
 #### ✅ Quản lý đơn hàng
+Người quản trị có thể sửa trạng thái đơn hàng, xóa và xem chi tiết đơn hàng.
+
+![image](https://github.com/user-attachments/assets/ad0a6b33-220d-4366-847c-d9cee686d6ae)
 
 ### Chức năng của User:
 
-#### ✅ Thanh toán qua Google
+#### ✅ Đăng nhập bằng Google
 
-#### ✅ Lọc, sắp xếp sản phẩm theo tiêu chí
+![image](https://github.com/user-attachments/assets/3e10e31a-f1a5-407a-bc81-313accaab689)
+
+#### ✅ Lọc, sắp xếp sản phẩm 
+Người dùng có thể sắp xếp, lọc sản phẩm theo nhiều tiêu chí như hãng sản xuất, RAM, mức giá và xem chi tiết sản phẩm.
+
+![image](https://github.com/user-attachments/assets/46388b91-2ca4-4cb7-93b9-6a99a1383b8b)
+
+![image](https://github.com/user-attachments/assets/050fddac-e492-45ea-a984-418784ec46ab)
 
 #### ✅ Thanh toán qua VNPAY
+Người dùng có thể chọn hình thức thanh toán khi nhận hàng hoặc thanh toán qua ví VNPAY.
+
+![image](https://github.com/user-attachments/assets/c14b863a-24ca-4b36-b35d-2c84e93162a7)
+
+Nếu thanh toán qua VNPAY, người dùng sẽ được chuyển tiếp qua trang thanh toán của VNPAY.
+
+
 
 #### ✅ Lịch sử đặt hàng
+Người dùng có thể xem đơn hàng và trạng thái đơn hàng (PENDING, SHIPPING, COMPLETE, CANCEL)
+
+![image](https://github.com/user-attachments/assets/b837e597-9b58-4d4e-aa5c-cabd7a98dddf)
 
 ## 🔧 HẠN CHẾ CỦA ỨNG DỤNG
 - Lỗi 404 hiển thị hình ảnh khi triển khai production
 
-📌 **Mục tiêu phát triển tiếp theo**:
+## 📌 MỤC TIÊU PHÁT TRIỂN TIẾP THEO
 - Cải thiện giao diện UI/UX.
 - Tích hợp AI để đề xuất sản phẩm theo sở thích người dùng.
-- Tích hợp chatbot
+- Tích hợp chatbot.

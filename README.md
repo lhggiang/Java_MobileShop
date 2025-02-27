@@ -29,13 +29,13 @@ Database: **MySQL**
 
 - **Spring Data JPA**: Giúp thao tác với cơ sở dữ liệu nhanh chóng, dễ dàng.
 
-- - **Spring AOP**: Đo thời thực thi của phương thức, giúp theo dõi hiệu suất.
+- **Spring AOP**: Đo thời thực thi của phương thức, giúp theo dõi hiệu suất.
 
 📌 **Frontend:**
 
 - View Engine: **JSP**
 
-- **HTML, CSS, Javascript**
+- **HTML, CSS, Javascript, Bootstrap**
 
 - **jQuery & AJAX**: Xử lý các tác vụ phía client nhanh chóng, mang lại trải nghiệm mượt mà, gọi APIs mà không cần reload trang.
 
@@ -109,15 +109,15 @@ Người dùng có thể chọn hình thức thanh toán khi nhận hàng hoặc
 
 Nếu thanh toán qua VNPAY, người dùng sẽ được chuyển tiếp qua trang thanh toán của VNPAY.
 
-
+![image](https://github.com/user-attachments/assets/7f3c08a4-1723-4e6f-aa6a-2822f89b23b8)
 
 #### ✅ Lịch sử đặt hàng
-Người dùng có thể xem đơn hàng và trạng thái đơn hàng (PENDING, SHIPPING, COMPLETE, CANCEL)
+Người dùng có thể xem đơn hàng và trạng thái đơn hàng (PENDING, SHIPPING, COMPLETE, CANCEL).
 
 ![image](https://github.com/user-attachments/assets/b837e597-9b58-4d4e-aa5c-cabd7a98dddf)
 
 ## 🔧 HẠN CHẾ CỦA ỨNG DỤNG
-- Lỗi 404 hiển thị hình ảnh khi triển khai production
+- Lỗi 404 hiển thị hình ảnh khi triển khai production.
 
 ## 📌 MỤC TIÊU PHÁT TRIỂN TIẾP THEO
 - Cải thiện giao diện UI/UX.

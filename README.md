@@ -1,11 +1,21 @@
 ## MOBILESHOP - GIẢI PHÁP QUẢN LÝ BÁN HÀNG ĐIỆN THOẠI ĐƠN GIẢN VÀ HIỆU QUẢ
+### Mục Lục
+- [1. Giới thiệu dự án](#1-giới-thiệu-dự-án)
+- [2. Các chức năng chính](#2-các-chức-năng-chính)
+- [3. Công nghệ sử dụng](#3-công-nghệ-sử-dụng)
+- [4. Demo ứng dụng](#4-demo-ứng-dụng)
+- [5. Cài đặt và chạy dự án](#5-cài-đặt-và-chạy-dự-án)
+- [6. Tác giả](#6-tác-giả)
+- [7. Demo tính năng nổi bật của ứng dụng](#7-demo-tính-năng-nổi-bật-của-ứng-dụng)
+- [8. Hạn chế của ứng dụng](#8-hạn-chế-của-ứng-dụng)
+- [9. Mục tiêu phát triển tiếp theo](#9-mục-tiêu-phát-triển-tiếp-theo)
 
-## 🚀 GIỚI THIỆU DỰ ÁN
+## 1. Giới thiệu dự án
 Trong thời đại công nghệ phát triển vượt bậc, thị trường điện thoại di động ngày càng trở nên sôi động và cạnh tranh khốc liệt. Để đứng vững và phát triển, các cửa hàng không chỉ cần những sản phẩm chất lượng mà còn phải sở hữu một hệ thống quản lý bán hàng chuyên nghiệp, giúp tối ưu hóa mọi quy trình từ quản lý sản phẩm, đơn hàng đến thống kê một cách hiệu quả và chính xác.
 
 **MobileShop** ra đời như một giải pháp toàn diện, mang đến cho bạn một ứng dụng web bán hàng điện thoại hiện đại, được xây dựng trên nền tảng công nghệ tiên tiến. Với Spring MVC làm backend, JSP làm view engine và MySQL làm cơ sở dữ liệu, MobileShop không chỉ đảm bảo tính ổn định, bảo mật mà còn mang lại trải nghiệm mượt mà cho cả người dùng và quản trị viên.
 
-## 🎯 CÁC CHỨC NĂNG CHÍNH
+## 2. Các chức năng chính
 
 - **Đăng ký / Đăng nhập / Quên mật khẩu / Đổi mật khẩu**: Đăng nhập nhanh chóng, hỗ trợ **đăng nhập bằng Google** và khôi phục mật khẩu dễ dàng.
 - **Quản lý sản phẩm**: Thêm, sửa, xóa, sắp xếp, lọc sản phẩm theo nhiều tiêu chí như giá, hãng, dung lượng.
@@ -14,7 +24,7 @@ Trong thời đại công nghệ phát triển vượt bậc, thị trường đ
 - **Quản lý tài khoản**: Người dùng có thể cập nhật thông tin cá nhân, xem lịch sử mua hàng.
 - **Thống kê**: Hiển thị tổng số đơn hàng, sản phẩm và người dùng một cách trực quan.
 
-## 🛠 CÔNG NGHỆ SỬ DỤNG
+## 3. Công nghệ sử dụng
 
 Build tool: **Maven** 
 Database: **MySQL** 
@@ -41,7 +51,8 @@ Database: **MySQL**
 
 📌 **Triển khai: Docker, VPS**
 
-## 📝 Demo ứng dụng: https://hoanggiang.xyz
+## 4. Demo ứng dụng 
+Truy cập: https://hoanggiang.xyz
 
 **ADMIN:**
 - Email: admin@gmail.com
@@ -51,21 +62,21 @@ Database: **MySQL**
 - Email: user@gmail.com
 - Password: 123456
 
-## 🔧 CÀI ĐẶT & CHẠY DỰ ÁN
+## 5. Cài đặt và chạy dự án
 
-### 1. Cài Đặt Backend
+### 📌 Cài Đặt Backend
 - Cài đặt JDK 17.
 - Clone mã nguồn và chạy trên IDE như IntelliJ IDEA, VSCode,...
 
-### 2. Cài Đặt Cơ Sở Dữ Liệu (MySQL)
+### 📌 Cài Đặt Cơ Sở Dữ Liệu (MySQL)
 - Cài đặt **MySQL**.
 - Tạo database mới: `CREATE DATABASE mobileshop;`
 - Chỉnh sửa cấu hình trong `application.properties` để kết nối với MySQL.
 
-## 📞 TÁC GIẢ
+## 6. Tác giả
 - **La Hoàng Giang** - [GitHub](https://github.com/lhggiang)
 
-## 🔥 DEMO TÍNH NĂNG NỔI BẬT CỦA DỰ ÁN
+## 7. Demo tính năng nổi bật của ứng dụng
 
 ### Chức năng của Admin:
 
@@ -116,10 +127,10 @@ Người dùng có thể xem đơn hàng và trạng thái đơn hàng (PENDING,
 
 ![image](https://github.com/user-attachments/assets/b837e597-9b58-4d4e-aa5c-cabd7a98dddf)
 
-## 🔧 HẠN CHẾ CỦA ỨNG DỤNG
+## 8. Hạn chế của ứng dụng
 - Lỗi 404 hiển thị hình ảnh khi triển khai production.
 
-## 📌 MỤC TIÊU PHÁT TRIỂN TIẾP THEO
+## 9. Mục tiêu phát triển tiếp theo
 - Cải thiện giao diện UI/UX.
 - Tích hợp AI để đề xuất sản phẩm theo sở thích người dùng.
 - Tích hợp chatbot.
